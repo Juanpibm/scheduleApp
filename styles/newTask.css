@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    background: #2196F3; /* fallback for old browsers */
+    background: linear-gradient(90deg, #2196F3 0%, #0952a6 50%);
+}
+
+form {
+    background: #E4F4FE;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin: 40%;
+    padding: 50px 20px;
+    margin-top: 150px;
+    padding-top: 28px;
+}
+
+input{
+    width: 700px;
+    padding: 9px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 16px;
+
+    background: #f2f2f2;
+    border-bottom-color: #2196F3;
+    border-bottom: 1%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+fieldset{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background: #f2f2f2;
+    border-color: #2196F3;
+    padding-bottom: 10px;
+    
+}
+
+legend{
+    font-size: 15px;
+    padding: 1%;
+    background: #f2f2f2;
+}
+
+label{
+    padding-left: 10px;
+    display:flex;
+    font-size: 12px;
+    background: #f2f2f2;
+}
+
+input[type='submit']{
+    background: #2196F3;
+    width: 40%;
+    height: 10%;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer; 
+    border: 0;
+}
+
+input[type='submit']:hover,input[type='submit']:focus {
+    background: #1976D2;
+  }

@@ -1,0 +1,40 @@
+header{
+    border: 50px solid #0F0244;
+}
+
+footer{
+    display: flex;
+    padding: 40px;
+    background-color:aqua;
+    
+}
+
+.flex{
+    display:flex;
+    border: 1px solid aqua;
+}
+
+.block{
+    display:block;
+    border: 1px solid rgb(197, 7, 67);
+}
+
+.contents{
+    display:contents;
+    border: 1px solid rgb(76, 23, 201);
+}
+
+.grid{
+    display:grid;
+    border: 1px solid aqua;
+}
+
+.inline{
+    display: inline;
+    border: 1px solid salmon;
+}
+
+.listitem{
+    display:list-item;
+    border: 1px solid salmon;
+}
